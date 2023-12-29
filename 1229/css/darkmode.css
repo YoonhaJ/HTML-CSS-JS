@@ -1,0 +1,32 @@
+#toggle-box {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+#toggle-box button {
+  padding: 5px 10px;
+  border: 0.2em solid seagreen;
+  border-radius: 5px;
+}
+
+#contents {
+  width: 50%;
+  height: 40vh;
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+
+}
+
+#contents p {
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.dark {
+  background-color: #222;
+  color: rgb(230, 230, 230);
+  transition: all 0.5s ease-in;
+}
