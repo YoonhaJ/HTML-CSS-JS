@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>예외처리</title>
+</head>
+<body>
+  <script>
+    /*
+    let add = () => {
+      alert("정상실행")
+    }*/
+    try{
+      console.log("시작")
+      add();
+      console.log("실행중.....")
+    } catch(error) {
+      console.log(`오류발생 : ${error}`)
+      console.log(`${error.name}`)
+      console.log(`${error.message}`)
+    }
+    console.log("종료")
+  </script>
+
+</body>
+</html>
