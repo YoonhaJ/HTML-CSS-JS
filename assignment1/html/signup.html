@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입 창 과제</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div id="container">
+    <h2>Join</h2>
+    <div id="signin">
+    <form action="">
+      <ul>
+      <li><input class="userInput" type="text" required id="user-id" placeholder="ID" autofocus minlength="6"></li>
+      <li><input class="userInput" type="password" required id="user-pw" placeholder="Password" minlength="8"></li>
+      <li><input class="userInput" type="password" required id="user-pwcheck" placeholder="Password Check" minlength="8"></li>
+      <li><input class="userInput" type="text" required id="user-name" placeholder="Name"></li>
+      <li><input class="userInput" type="tel" required id="user-phone" placeholder="Phone Number 000-0000-0000"></li>
+      <li><input class="userInput" type="email" required id="user-mail" placeholder="E-mail"></li>
+      <li><input class="userInput" type="text" id="user-addr" placeholder="Address"></li>
+    </ul>
+      <button>Sign Up</button>
+      <p id="join">Are you join? <a href="/html/index.html" id="login">Login</a></p>
+      <p class="correct">회원가입 완료</p>
+    </form>
+    </div>
+  </div>
+  <script src="/js/join.js"></script>
+</body>
+</html>

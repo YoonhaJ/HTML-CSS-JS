@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+}
+h2 {
+  margin-bottom: 20px;
+}
+.userInput {
+  width: 90%;
+  height: 40px;
+  margin: 5px 0;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: 90%;
+  height: 40px;
+  background: linear-gradient(90deg, #387aff, #88abef );
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8em;
+  margin: 16px 0;
+}
+#join {
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+#login {
+  color: #6A9CFD;
+  text-decoration: none;
+}
+
+
